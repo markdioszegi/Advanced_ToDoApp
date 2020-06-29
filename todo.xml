@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<todos>
+    <todo>
+        <name>test1</name>
+        <description>very good</description>
+        <isFinished>true</isFinished>
+    </todo>
+    <todo>
+        <name>test2</name>
+        <description>ahaok</description>
+        <isFinished>false</isFinished>
+    </todo>
+    <todo>
+        <name>test25</name>
+        <description>ahaok</description>
+        <isFinished>false</isFinished>
+    </todo>
+    <todo>
+        <name>Tokyo</name>
+        <description>Visit Tokyo</description>
+        <isFinished>false</isFinished>
+    </todo>
+</todos>
