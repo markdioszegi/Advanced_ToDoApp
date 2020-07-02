@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <todos>
     <todo>
-        <name>test1</name>
-        <description>very good</description>
+        <name>Shopping</name>
+        <description>Buy some food and beverages</description>
         <isFinished>true</isFinished>
     </todo>
     <todo>
@@ -16,8 +16,8 @@
         <isFinished>false</isFinished>
     </todo>
     <todo>
-        <name>Tokyo</name>
-        <description>Visit Tokyo</description>
-        <isFinished>false</isFinished>
+        <name>London</name>
+        <description>Ostankino tower</description>
+        <isFinished>true</isFinished>
     </todo>
 </todos>

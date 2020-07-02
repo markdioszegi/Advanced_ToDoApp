@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Console {
@@ -19,6 +20,26 @@ public class Console {
 
     public static void warning(String s) {
         System.out.println(YELLOW + "Warning: " + RESET + s);
+    }
+
+    public static void listTodos(List<Todo> todos) {
+        int i = 1;
+        if (!todos.isEmpty()) {
+            for (Todo todo :
+                    todos) {
+                System.out.println("----- " + i + ". -----");
+                System.out.println("Name: " + todo.getName());
+                System.out.println("Description: " + todo.getDescription());
+                if (todo.isFinished()) {
+                    System.out.println("It's finished! :)");
+                } else {
+                    System.out.println("In progress...");
+                }
+                ++i;
+            }
+        } else {
+            Console.warning("Your Todo list is empty!");
+        }
     }
 
     public static int getInt() {
